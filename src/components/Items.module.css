@@ -1,0 +1,42 @@
+.mainitems {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 40px;
+}
+
+.singleitem {
+  margin: 16px;
+  border: 12px solid darkblue;
+  border-radius: 4%;
+  border-style: double;
+}
+
+.itemname {
+  font-family: 'Sofadi One', Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 4px 0;
+  color: whitesmoke;
+  max-width: 296px;
+}
+
+.features {
+  color: whitesmoke;
+  text-align: center;
+  font-family: 'Sofadi One', Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.cooking {
+  color: whitesmoke;
+  text-align: center;
+  font-family: 'Sofadi One', Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  max-width: 296px;
+}
+
+img {
+  cursor: pointer;
+}

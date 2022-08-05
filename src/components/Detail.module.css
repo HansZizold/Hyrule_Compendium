@@ -1,0 +1,46 @@
+.main {
+  /* display: flex; */
+}
+
+.title {
+  font-family: 'Sofadi One', Arial, Helvetica, sans-serif;
+  font-size: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 0 32px 0;
+  color: whitesmoke;
+}
+
+.item {
+  display: flex;
+  margin: 0 120px;
+}
+
+.image {
+  min-width: 440px;
+  margin-right: 32px;
+}
+
+.feature {
+  font-family: 'Sofadi One', Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  color: whitesmoke;
+  margin-bottom: 16px;
+}
+
+mark {
+  font-family: 'Sofadi One', Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  color: whitesmoke;
+  margin-bottom: 16px;  
+  text-transform: uppercase;
+}
+
+.common {
+  margin-top: 12px;
+  font-family: 'Sofadi One', Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  color: whitesmoke;
+}
+
+
