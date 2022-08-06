@@ -20,7 +20,7 @@
 
 ## Live Demo (if available)
 
- [Live Version]()
+ [Live Version](https://hyrule-compendium-hpz.netlify.app/)
 
 ## Getting Started
 
@@ -35,7 +35,7 @@ To get a local copy up and running follw these simple example steps:
 
 ```
     - Select the link with the code on the https code table in the repo
-    - Open a Terminal and write the command: git clone https://github.com/HansZizold/Space-Travelers-Hub
+    - Open a Terminal and write the command: git clone https://github.com/HansZizold/musicartists
     - $ cd into the directory and run npm install
     - $ After the node_module module is installed successfully, run npm start
     - $ The project will open on the browser
