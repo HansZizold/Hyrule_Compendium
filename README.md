@@ -63,9 +63,9 @@ Give a ⭐️ if you like this project!
 
 This is my original work and no where else you can find it. but I have used some public materials which you can find down:
 
-- [Hyrule Compendium API:](https://gadhagod.github.io/Hyrule-Compendium-API/#/).
+- [Hyrule Compendium API]:(https://gadhagod.github.io/Hyrule-Compendium-API/#/).
 - The design is based on a original design idea by [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio).
-- To use this design in your application read [these terms](https://creativecommons.org/licenses/by-nc/4.0/).
+  To use this design in your application read [these terms](https://creativecommons.org/licenses/by-nc/4.0/).
 - Google Fonts.
 
 ## 📝 License
