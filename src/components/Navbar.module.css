@@ -13,12 +13,34 @@
 
 .title1 {
   color: #bc964d;
-  font-family: 'Trade Winds', 'Lucida Sans', Geneva, Verdana;
+  font-family: 'Trade Winds', sans-serif;
   font-weight: lighter;
 }
 
 .title2 {
   color: #bc964d;
-  font-family: 'Twinkle Star', 'Lucida Sans', Geneva, Verdana;
+  font-family: 'Twinkle Star', sans-serif;
   font-size: 40px;
+}
+
+@media (max-width: 900px) {
+  .navbar {
+    flex-direction: column;
+    margin: 32px 80px 32px;
+  }
+
+  .logo {
+    width: 200px;
+    margin: 0 0 16px 0;
+  }
+
+  .title1 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .title2 {
+    font-size: 20px;
+    text-align: center;
+  }
 }

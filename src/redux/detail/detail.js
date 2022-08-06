@@ -9,9 +9,15 @@ export const getDetails = createAsyncThunk(
   async (id) => {
     const response = await fetch(BASE_URL + id);
     const details = await response.json();
+    const { category } = details.data;
     details.data.commonLocations = details.data.common_locations;
     delete details.data.common_locations;
-    // console.log(details.data);
+    if (category === 'creatures' || category === 'materials') {
+      details.data.heartsRecovered = details.data.hearts_recovered;
+      delete details.data.hearts_recovered;
+      details.data.cookingEffect = details.data.cooking_effect;
+      delete details.data.cooking_effect;
+    }
     return (details.data);
   },
 );

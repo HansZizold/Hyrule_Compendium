@@ -19,6 +19,7 @@ const Category = () => {
         name="category"
         id="category"
       >
+        <option className={styles.singleoption} value="">Choose a Category</option>
         <option className={styles.singleoption} value="equipment">Equipment</option>
         <option className={styles.singleoption} value="creatures">Creatures</option>
         <option className={styles.singleoption} value="materials">Materials</option>
