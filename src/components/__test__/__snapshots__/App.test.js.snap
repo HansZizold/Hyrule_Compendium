@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` App Component Rendering  renders correctly 1`] = `
+<main>
+  <header>
+    <div
+      className="navbar"
+    >
+      <img
+        alt="logo"
+        className="logo"
+        src="dark_logo.png"
+      />
+      <div>
+        <h1
+          className="title1"
+        >
+          HYRULE COMPENDIUM
+        </h1>
+        <h2
+          className="title2"
+        >
+          The Legend of Zelda: Breath of the Wild
+        </h2>
+      </div>
+    </div>
+  </header>
+  <div>
+    <div
+      className="category"
+    >
+      <h2
+        className="select"
+      >
+        SELECT CATEGORY
+      </h2>
+      <select
+        className="options"
+        id="category"
+        name="category"
+        onChange={[Function]}
+      >
+        <option
+          className="singleoption"
+          value=""
+        >
+          Choose a Category
+        </option>
+        <option
+          className="singleoption"
+          value="equipment"
+        >
+          Equipment
+        </option>
+        <option
+          className="singleoption"
+          value="creatures"
+        >
+          Creatures
+        </option>
+        <option
+          className="singleoption"
+          value="materials"
+        >
+          Materials
+        </option>
+        <option
+          className="singleoption"
+          value="monsters"
+        >
+          Monsters
+        </option>
+        <option
+          className="singleoption"
+          value="treasure"
+        >
+          Treasure
+        </option>
+      </select>
+    </div>
+    <div
+      className="mainitems"
+    />
+  </div>
+</main>
+`;
