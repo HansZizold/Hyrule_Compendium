@@ -91,7 +91,7 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-    git clone git clone https://github.com/HansZizold/Hyrule_Compendium
+    git clone https://github.com/HansZizold/Hyrule_Compendium
     cd ./Hyrule_Compendium
 
 ### Install
